@@ -69,8 +69,7 @@ public class _0008_MyAtoi
                         Result = MaxInt;
                         Break  = true;
                     }
-
-                    if (Result < MinInt)
+                    else if (Result < MinInt)
                     {
                         Result = MinInt;
                         Break  = true;
