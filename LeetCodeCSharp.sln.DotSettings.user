@@ -6,5 +6,8 @@
   &lt;Project Location="D:\src\leetcode\LeetCodeCSharp\LeetCode.Test" Presentation="&amp;lt;LeetCode.Test&amp;gt;" /&gt;&#xD;
 &lt;/SessionState&gt;</s:String>
 	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=a6b5d6a6_002D3032_002D4b9c_002D8dee_002D8a625cbb8041/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="All tests from _0006_Convert.Test.cs" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
-  &lt;ProjectFile&gt;DE658290-7E9B-44F2-B05F-D2E077AA9403/f:_0006_Convert.Test.cs&lt;/ProjectFile&gt;&#xD;
+  &lt;Or&gt;&#xD;
+    &lt;ProjectFile&gt;DE658290-7E9B-44F2-B05F-D2E077AA9403/f:_0006_Convert.Test.cs&lt;/ProjectFile&gt;&#xD;
+    &lt;ProjectFile&gt;DE658290-7E9B-44F2-B05F-D2E077AA9403/f:_0007_Reverse.Test.cs&lt;/ProjectFile&gt;&#xD;
+  &lt;/Or&gt;&#xD;
 &lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>
