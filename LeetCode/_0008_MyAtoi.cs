@@ -3,6 +3,7 @@
 public class _0008_MyAtoi
 {
     // 题设主要考察有限状态机, 没有限定只能使用int
+    // read all input
     public int MyAtoi(string s)
     {
         var automaton = new Automaton();
@@ -10,11 +11,6 @@ public class _0008_MyAtoi
         foreach (var c in s)
         {
             automaton.Run(c);
-
-            if (automaton.Break)
-            {
-                break;
-            }
         }
 
         return (int)automaton.Result;
@@ -30,7 +26,6 @@ public class _0008_MyAtoi
             End
         }
 
-        public bool Break;
         public long Result;
 
         const long MaxInt = int.MaxValue;
@@ -67,12 +62,10 @@ public class _0008_MyAtoi
                     if (Result > MaxInt)
                     {
                         Result = MaxInt;
-                        Break  = true;
                     }
                     else if (Result < MinInt)
                     {
                         Result = MinInt;
-                        Break  = true;
                     }
 
                     break;
@@ -87,12 +80,8 @@ public class _0008_MyAtoi
                     break;
                 }
                 case State.Start: break;
-                case State.End:
-                {
-                    Break = true;
-                    break;
-                }
-                default: throw new ArgumentException();
+                case State.End:   break;
+                default:          throw new ArgumentException();
             }
         }
 
