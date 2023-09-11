@@ -6,8 +6,8 @@ public static class AssertHelper
 {
     public static void AssertSinglyLinkList(ListNode? expected, ListNode? actual)
     {
-        var expectedArray = TestHelper.SinglyLinkedListToArray(expected);
-        var actualArray   = TestHelper.SinglyLinkedListToArray(actual);
+        var expectedArray = ListNode.ToArray(expected);
+        var actualArray   = ListNode.ToArray(actual);
 
         Assert.Equal(expectedArray, actualArray);
     }
@@ -93,7 +93,7 @@ public static class AssertHelper
     //         }
     //     }
     // }
-    //
+
     // public static void AssertTree(int?[] expected, TreeNode actual)
     // {
     //     if (expected == null || expected.Length == 0) Assert.IsNull(actual);
@@ -104,7 +104,7 @@ public static class AssertHelper
     //
     // public static void AssertTree(TreeNode expected, TreeNode actual)
     // {
-    //     if (expected == null) Assert.IsNull(actual);
+    //     if (expected == null) Assert.Null(actual);
     //
     //     var stack1 = new Stack<TreeNode>();
     //     stack1.Push(expected);
@@ -115,10 +115,10 @@ public static class AssertHelper
     //     {
     //         var cur1 = stack1.Pop();
     //         var cur2 = stack2.Pop();
-    //         Assert.AreEqual(cur1.val, cur2.val);
+    //         Assert.Equal(cur1.val, cur2.val);
     //         if (cur1.left == null)
     //         {
-    //             Assert.IsNull(cur2.left);
+    //             Assert.Null(cur2.left);
     //         }
     //         else
     //         {
@@ -128,7 +128,7 @@ public static class AssertHelper
     //
     //         if (cur1.right == null)
     //         {
-    //             Assert.IsNull(cur2.right);
+    //             Assert.Null(cur2.right);
     //         }
     //         else
     //         {
@@ -137,13 +137,14 @@ public static class AssertHelper
     //         }
     //     }
     //
-    //     Assert.AreEqual(0, stack1.Count);
-    //     Assert.AreEqual(0, stack2.Count);
+    //     Assert.Equal(0, stack1.Count);
+    //     Assert.Equal(0, stack2.Count);
     // }
     //
     // public static void AssertTrees(IList<int?[]> expected, IList<TreeNode> actual)
     // {
-    //     Assert.AreEqual(expected.Count, actual.Count, "count not match");
+    //     Assert.Equal(expected.Count, actual.Count);
+    //     
     //     for (int i = 0; i < expected.Count; i++)
     //     {
     //         AssertTree(expected[i], actual[i]);
