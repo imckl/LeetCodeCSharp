@@ -1,6 +1,6 @@
 ﻿namespace LeetCode.Test;
 
-public class _228_SummaryRanges_Test
+public class _0228_SummaryRanges_Test
 {
     [Fact]
     public void LengthZero()
