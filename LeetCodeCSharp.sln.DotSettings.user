@@ -33,14 +33,5 @@
   &lt;/Or&gt;&#xD;
 &lt;/SessionState&gt;</s:String>
 	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=d3dba352_002Dba98_002D454d_002D80c1_002D21c98ea7be45/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="Session #2" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
-  &lt;Or&gt;&#xD;
-    &lt;ProjectFile&gt;DE658290-7E9B-44F2-B05F-D2E077AA9403/f:_0006_Convert.Test.cs&lt;/ProjectFile&gt;&#xD;
-    &lt;ProjectFile&gt;DE658290-7E9B-44F2-B05F-D2E077AA9403/f:_0007_Reverse.Test.cs&lt;/ProjectFile&gt;&#xD;
-    &lt;ProjectFile&gt;DE658290-7E9B-44F2-B05F-D2E077AA9403/f:_0008_MyAtoi.Test.cs&lt;/ProjectFile&gt;&#xD;
-    &lt;ProjectFile&gt;DE658290-7E9B-44F2-B05F-D2E077AA9403/f:_0019_RemoveNthFromEnd.Test.cs&lt;/ProjectFile&gt;&#xD;
-    &lt;ProjectFile&gt;DE658290-7E9B-44F2-B05F-D2E077AA9403/f:_0088_MergeSortedArray.Test.cs&lt;/ProjectFile&gt;&#xD;
-    &lt;ProjectFile&gt;DE658290-7E9B-44F2-B05F-D2E077AA9403/f:_0027_RemoveElement.Test.cs&lt;/ProjectFile&gt;&#xD;
-    &lt;ProjectFile&gt;DE658290-7E9B-44F2-B05F-D2E077AA9403/f:_0026_RemoveDuplicatesFromSortedArray.Test.cs&lt;/ProjectFile&gt;&#xD;
-    &lt;ProjectFile&gt;DE658290-7E9B-44F2-B05F-D2E077AA9403/f:_0080_RemoveDuplicatesFromSortedArrayII.Test.cs&lt;/ProjectFile&gt;&#xD;
-  &lt;/Or&gt;&#xD;
+  &lt;Project Location="D:\src\leetcode\LeetCodeCSharp\LeetCode.Test" Presentation="&amp;lt;LeetCode.Test&amp;gt;" /&gt;&#xD;
 &lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>
